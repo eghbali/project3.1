@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="project3.1:war exploded">
+    <output-path>$PROJECT_DIR$/exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="project3.1" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/web.xml" />
+        <element id="library" level="project" name="javax.servlet:servlet-api:2.5" />
+      </element>
+      <element id="javaee-facet-resources" facet="project3.1/web/Web" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/pages" />
+    </root>
+  </artifact>
+</component>

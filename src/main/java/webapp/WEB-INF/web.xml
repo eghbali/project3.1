@@ -7,14 +7,149 @@
 
 
         <servlet>
-            <servlet-name>FirstPageManager</servlet-name>
-            <servlet-class>PresentationLayer.FirstPageManager</servlet-class>
+            <servlet-name>FirstPageManagerServlet</servlet-name>
+            <servlet-class>presentationLayer.FirstPageManagerServlet</servlet-class>
         </servlet>
 
         <servlet-mapping>
-            <servlet-name>FirstPageManager</servlet-name>
+            <servlet-name>FirstPageManagerServlet</servlet-name>
             <url-pattern>/FirstPageManager</url-pattern>
         </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LegalCustomerManagerServlet</servlet-name>
+        <servlet-class>presentationLayer.LegalCustomerManagerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LegalCustomerManagerServlet</servlet-name>
+        <url-pattern>/LegalCustomerManager</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RealCustomerManagerServlet</servlet-name>
+        <servlet-class>presentationLayer.RealCustomerManagerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RealCustomerManagerServlet</servlet-name>
+        <url-pattern>/RealCustomerManager</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NewLegalCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.NewLegalCustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>NewLegalCustomerServlet</servlet-name>
+        <url-pattern>/NewLegalCustomer</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>NewRealCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.NewRealCustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>NewRealCustomerServlet</servlet-name>
+        <url-pattern>/NewRealCustomer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NewCustomerResultServlet</servlet-name>
+        <servlet-class>presentationLayer.BackToFirstPageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>NewCustomerResultServlet</servlet-name>
+        <url-pattern>/NewCustomerResult</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchLegalCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.SearchLegalCustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SearchLegalCustomerServlet</servlet-name>
+        <url-pattern>/SearchLegalCustomer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BackToLegalSearchServlet</servlet-name>
+        <servlet-class>presentationLayer.BackToLegalSearchServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BackToLegalSearchServlet</servlet-name>
+        <url-pattern>/BackToLegalSearch</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AlterLegalCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.AlterLegalCustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AlterLegalCustomerServlet</servlet-name>
+        <url-pattern>/AlterLegalCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>BackToFirstPageServlet</servlet-name>
+        <servlet-class>presentationLayer.BackToFirstPageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BackToFirstPageServlet</servlet-name>
+        <url-pattern>/BackToFirstPageServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>EditLegalCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.EditLegalCustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditLegalCustomerServlet</servlet-name>
+        <url-pattern>/EditLegalCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchRealCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.SearchRealCustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SearchRealCustomerServlet</servlet-name>
+        <url-pattern>/SearchRealCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AlterRealCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.AlterRealCustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AlterRealCustomerServlet</servlet-name>
+        <url-pattern>/AlterRealCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>EditRealCustomerServlet</servlet-name>
+        <servlet-class>presentationLayer.EditRealCustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditRealCustomerServlet</servlet-name>
+        <url-pattern>/EditRealCustomerServlet</url-pattern>
+    </servlet-mapping>
+
+
+
 
 
 
